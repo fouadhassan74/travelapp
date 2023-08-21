@@ -1,0 +1,20 @@
+.card {
+  background-color: darkcyan;
+  padding: 15px;
+}
+.card .place,
+.review {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card .rating {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card .information {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

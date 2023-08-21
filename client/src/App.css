@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+.form {
+  padding: 20px;
+  background-color: darkcyan;
+}
+.form .inputForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.form .textareaForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 100%;
+}
+.form .inputForm label {
+  font-size: 20px;
+  font-weight: 300;
+}
+.form .inputForm input {
+  width: 100px;
+  height: 25px;
+}
+.submitButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: tomato;
+}
+.button {
+  position: absolute;
+  top: 10px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.button:focus {
+  outline: none;
+}
+
+.logout {
+  right: 75px;
+  background-color: tomato;
+}
+
+.login {
+  right: 145px;
+  background-color: teal;
+  margin-right: 10px;
+}
+
+.register {
+  right: 0;
+  background-color: slateblue;
+}
